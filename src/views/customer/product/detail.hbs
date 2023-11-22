@@ -1,0 +1,35 @@
+<div class="row row_item">
+    <div class="col-sm-4">
+        <figure>
+            <span class="ribbon off">-30%</span>
+            <a href="/products/{{_id}}">
+                <img class="img-fluid lazy" src="{{product.img}}"
+                     data-src="{{product.img}}" alt="">
+            </a>
+            <div data-countdown="2019/05/15" class="countdown"></div>
+        </figure>
+    </div>
+    <div class="col-sm-8">
+        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i
+                class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i>
+        </div>
+        <a href="/products/{{_id}}">
+            <h3>{{product.name}}</h3>
+        </a>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident...</p>
+        <div class="price_box">
+            <span class="new_price">${{product.price}}</span>
+            <span class="old_price">$60.00</span>
+        </div>
+        <ul>
+            <li><a href="#0" class="btn_1">Add to cart</a></li>
+            <li><a href="#0" class="btn_1 gray tooltip-1" data-bs-toggle="tooltip"
+                   data-bs-placement="top" title="Add to favorites"><i class="ti-heart"></i><span>Add
+										to favorites</span></a></li>
+            <li><a href="#0" class="btn_1 gray tooltip-1" data-bs-toggle="tooltip"
+                   data-bs-placement="top" title="Add to compare"><i
+                    class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+        </ul>
+    </div>
+</div>
